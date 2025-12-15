@@ -1,54 +1,60 @@
 <div align="center">
-  <h1>🚀 Open Alpha</h1>
-  <p><strong>Enterprise-Grade Quantitative Factor Analysis Platform</strong></p>
-  
+  <br />
+  <h1 style="font-size: 3rem; font-weight: 900;">🚀 Open Alpha</h1>
+  <p style="font-size: 1.2rem;"><strong>The Enterprise-Grade Quantitative Research Platform</strong></p>
+  <p><i>From Hypothesis to Alpha — Build, Backtest, and Deploy Institutional-Quality Strategies.</i></p>
+
   <p>
     <a href="#features">Features</a> •
     <a href="#quick-start">Quick Start</a> •
     <a href="#documentation">Documentation</a> •
-    <a href="#screenshots">Screenshots</a> •
     <a href="#contributing">Contributing</a>
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python">
-    <img src="https://img.shields.io/badge/react-19.x-61DAFB.svg" alt="React">
-    <img src="https://img.shields.io/badge/fastapi-0.100+-009688.svg" alt="FastAPI">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+    <img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=flat-square" alt="Status">
+    <img src="https://img.shields.io/badge/Python-3.9+-blue?style=flat-square" alt="Python">
+    <img src="https://img.shields.io/badge/React-18+-61DAFB?style=flat-square" alt="React">
+    <img src="https://img.shields.io/badge/FastAPI-0.100+-009688?style=flat-square" alt="FastAPI">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
   </p>
 </div>
 
 ---
 
-## ✨ Features
+**Open Alpha** is a high-performance, open-source quantitative research platform designed for serious algorithmic traders and researchers. Built on a robust **FastAPI** backend and a modern **React** frontend, it bridges the gap between ad-hoc analysis scripts and institutional-grade factor libraries. Whether you are mining new alpha signals, analyzing factor decay, or constructing multi-factor portfolios, Open Alpha provides the rigorously tested tools you need.
 
-### 📊 Data Explorer
-- **Interactive Candlestick Charts** - Professional-grade TradingView-style charts with zoom/pan
-- **Multi-Timeframe Support** - 1H, 4H, 1D and more
-- **Real-time Data Browsing** - Browse your local market data efficiently
+## ✨ Why Open Alpha?
 
-### 🧪 Factor Laboratory
-- **Expression Editor** - Monaco-based code editor with syntax highlighting
-- **50+ Built-in Functions** - `ts_delay`, `ts_mean`, `ts_std`, `ts_rank`, `ts_corr`, etc.
-- **One-Click Backtesting** - Instant factor evaluation and performance analysis
-- **Interactive Help** - Built-in function documentation and examples
+*   **⚡ Velocity**: Go from *idea* to *statistically valid factor* in seconds, not hours.
+*   **🛡️ Robustness**: Industry-standard metrics (IC, ICIR, Turnover) prevent overfitting and false discoveries.
+*   **🧠 Intelligence**: Advanced expression engine supports complex time-series logic (`ts_rank`, `ts_corr`, `winsorize`).
+*   **🔌 Extensibility**: Clean architecture allows easy integration of custom data sources and execution engines.
 
-### 📈 Advanced IC Analysis
-- **Time-Series IC** - Rolling IC correlation over time
-- **Cross-Sectional IC** - Period-by-period IC analysis
-- **IC Distribution** - Histogram visualization
-- **Statistical Significance** - t-statistic and p-value
+---
 
-### 📊 Quantile Testing
-- **Stratified Layer Analysis** - 3/5/10 quantile stratification
-- **Layer Metrics** - Return, Sharpe, Win Rate per layer
-- **Monotonicity Check** - Automatic detection of factor quality
+## 💎 Features
 
-### 🏆 Factor Ranking
-- **Comprehensive Scoring** - 0-100 factor quality score
-- **Multi-Metric Sorting** - Sort by IC, Sharpe, Win Rate
-- **Validity Assessment** - Automatic factor validation
-- **Leaderboard View** - Compare all backtested factors
+### 🧠 **Strategy Builder (New!)**
+*   **Multi-Factor Combination**: Combine alpha signals with adjustable weights.
+*   **Smart Normalization**: Automatic **Z-score standardization** ensures apples-to-apples factor combination.
+*   **Strategy Persistence**: Save and load your winning strategies; build a library of proven alphas.
+
+### 🧪 **Factor Laboratory**
+*   **Expression Engine**: Powerful Python-like syntax for factor construction (e.g., `rank(close) / ts_delay(open, 5)`).
+*   **Institutional Metrics**:
+    *   **Alpha Quality**: IC Mean, **ICIR** (Information Ratio), t-statistic.
+    *   **Stability**: **Factor Autocorrelation**, turnover analysis.
+    *   **Risk**: Sharpe, Sortino, Max Drawdown.
+*   **Deep Visualization**: Interactive charts for **Cumulative IC**, Equity Curves, and Layered Quantile Returns.
+
+### 📊 **Data Explorer**
+*   **Professional Charting**: TradingView-style interactive charts (Lightweight Charts) with multi-timeframe support.
+*   **Instant Analysis**: Browse terabytes of market data with zero latency.
+
+### 🏆 **Factor Ranking**
+*   **Leaderboard**: Automatically score and rank factors based on a proprietary quality model (0-100).
+*   **Validity Checks**: Automatic detection of "fake alpha" via monotonicity and statistical significance tests.
 
 ---
 
