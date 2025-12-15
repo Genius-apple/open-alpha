@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+pyarrow
+pydantic
+pydantic-settings
+scipy
+polars
+matplotlib
+plotly
+python-dotenv
